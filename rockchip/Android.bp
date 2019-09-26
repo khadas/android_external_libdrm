@@ -12,8 +12,3 @@ cc_library_shared {
     ],
 }
 
-vendor_public_library {
-    name: "libdrm_rockchip",
-    symbol_file: "libdrm_rockchip.map.txt",
-}
-
