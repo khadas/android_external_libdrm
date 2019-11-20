@@ -50,6 +50,9 @@ cc_library {
     name: "libdrm",
     recovery_available: true,
     vendor_available: true,
+    vndk: {
+        enabled: true,
+    },
     defaults: [
         "libdrm_defaults",
         "libdrm_sources",
